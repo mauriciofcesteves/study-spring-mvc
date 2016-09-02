@@ -15,13 +15,15 @@
   </parent>
 
   <dependencies>
+
+  	<!-- JUnit for unity cases -->
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <scope>test</scope>
+    	<groupId>junit</groupId>
+     	<artifactId>junit</artifactId>
+     	<scope>test</scope>
     </dependency>
     
-    <!-- Spring MVC -->
+    <!-- Spring MVC dependencies -->
     <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-thymeleaf</artifactId>
@@ -37,7 +39,7 @@
   <build>
     <finalName>study</finalName>
 
-	<!-- Tomcat embedded - http://tomcat.apache.org/maven-plugin-2.2/ -->
+	<!-- spring-boot-maven-plugin -->
     <pluginManagement>
       <plugins>
         <plugin>
